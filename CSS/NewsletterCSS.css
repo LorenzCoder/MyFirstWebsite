@@ -1,0 +1,11 @@
+body {
+    background-color: black;
+    color: white;
+}
+#Absatz, h1 {
+    color: red;
+    background-color: white;
+}
+#Anmeldung {
+    background-color: blue;
+}

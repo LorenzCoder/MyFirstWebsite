@@ -1,0 +1,45 @@
+@import url("UeberSchriften.css");
+@import url("Buttons.css");
+/*Generelle Hintergrundfarbe*/
+body {
+    background-color: black;
+}
+#Absatz, #Absatz1,
+#Absatz2, #Absatz3,
+.externalsites, .sitenav {
+    background-color: white;
+    text-decoration: none;
+    color: black;
+}
+/*Hauptnavigation*/
+#MainNav {
+    background-color: white;
+}
+/* Links bei Maus darüber.*/
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+/*LinkFarbe*/
+a, .externalsites    {
+    color: red;
+}
+/*Externe Seiten*/
+.externalsites {
+    text-decoration: none;
+}
+#left, .right {
+    text-align: left;
+}
+#middle, .middle {
+    text-align: center;
+}
+#right, .right {
+    text-align: right;
+}
+#left, #middle, #right {
+    width: 30%;
+}
+.btn, .left, .middle, .right {
+    width: auto;
+}
