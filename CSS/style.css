@@ -28,24 +28,15 @@ a, .externalsites    {
 .externalsites {
     text-decoration: none;
 }
-#left, .right {
-    text-align: left;
-}
-#middle, .middle {
-    text-align: center;
-}
-#right, .right {
-    text-align: right;
-}
-#left, #middle, #right {
-    width: 30%;
-}
-.btn, .left, .middle, .right {
-    width: auto;
-}
 p, footer {
     background-color: #ffffff;
 }
-footer {
-    bottom: 0;
+html, body {
+    height: 100%;
+}
+#footer {
+    position: absolute;
+    bottom: 0px;
+    padding: 20px;
+    height: 100px;
 }
