@@ -43,3 +43,6 @@ a, .externalsites    {
 .btn, .left, .middle, .right {
     width: auto;
 }
+p, footer {
+    background-color: #ffffff;
+}
