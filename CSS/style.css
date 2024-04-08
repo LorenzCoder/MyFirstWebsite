@@ -21,7 +21,7 @@ a:hover {
     color: black;
 }
 /*LinkFarbe*/
-a, .externalsites    {
+a, .externalsites {
     color: red;
 }
 /*Externe Seiten*/
@@ -39,4 +39,15 @@ html, body {
     bottom: 0px;
     padding: 20px;
     height: 100px;
+}
+#left, #right {
+    /*display: flex;
+    flex-direction: row;*/
+    width: 48%;
+}
+#left {
+    align-self: left;
+}
+#right {
+    align-self: right;
 }
