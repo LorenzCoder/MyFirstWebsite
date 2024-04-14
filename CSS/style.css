@@ -1,5 +1,4 @@
 @import url("UeberSchriften.css");
-@import url("Buttons.css");
 /*Generelle Hintergrundfarbe*/
 body {
     background-color: black;
@@ -50,4 +49,18 @@ html, body {
 }
 #right {
     align-self: right;
+}
+button {
+    background-color: black;
+    color: white;
+}
+button:hover {
+    background-color: red;
+    color: black;
+}
+h1, h2, h3,
+h4, h5, h6,
+#sitenav {
+    text-align: center;
+    background-color: red;
 }
