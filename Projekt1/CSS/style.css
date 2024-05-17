@@ -1,0 +1,66 @@
+@import url("UeberSchriften.css");
+/*Generelle Hintergrundfarbe*/
+body {
+    background-color: black;
+}
+#Absatz, #Absatz1,
+#Absatz2, #Absatz3,
+.externalsites, .sitenav {
+    background-color: white;
+    text-decoration: none;
+    color: black;
+}
+/*Hauptnavigation*/
+#MainNav {
+    background-color: white;
+}
+/* Links bei Maus darüber.*/
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+/*LinkFarbe*/
+a, .externalsites {
+    color: red;
+}
+/*Externe Seiten*/
+.externalsites {
+    text-decoration: none;
+}
+p, footer {
+    background-color: #ffffff;
+}
+html, body {
+    height: 100%;
+}
+#footer {
+    position: absolute;
+    bottom: 0px;
+    padding: 20px;
+    height: 100px;
+}
+#left, #right {
+    /*display: flex;
+    flex-direction: row;*/
+    width: 48%;
+}
+#left {
+    align-self: left;
+}
+#right {
+    align-self: right;
+}
+button {
+    background-color: black;
+    color: white;
+}
+button:hover {
+    background-color: red;
+    color: black;
+}
+h1, h2, h3,
+h4, h5, h6,
+#sitenav {
+    text-align: center;
+    background-color: red;
+}
